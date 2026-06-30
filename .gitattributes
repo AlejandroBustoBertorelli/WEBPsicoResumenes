@@ -7,3 +7,10 @@
 *.ttf binary
 *.eot binary
 *.otf binary
+
+# Imágenes: binario
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
