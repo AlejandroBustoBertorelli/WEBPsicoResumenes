@@ -1,0 +1,13 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.jotfor.ms	TRUE	/	FALSE	1999999999	userReferer	http%3A%2F%2Fwww.psicoresumenes.com%2F
+.jotfor.ms	TRUE	/	FALSE	1999999999	guest	guest_a5a91f1e980a31e1
+cdn.jotfor.ms	TRUE	/	FALSE	1999999999	SameSite	None
+.jotform.com	TRUE	/	FALSE	1999999999	userReferer	http%3A%2F%2Fwww.psicoresumenes.com%2F
+.jotform.com	TRUE	/	FALSE	1999999999	guest	guest_b092a2461590e993
+www.jotform.com	TRUE	/	FALSE	1999999999	SameSite	None
+weebly.com	TRUE	/	FALSE	1999999999	sto-id-editor	NFFNBNAK
+weebly.com	TRUE	/	FALSE	1999999999	__cf_bm	u7MQYm19Cxowq7W_fWVxNvuH063RJf1DthoEe9yec_E-1782804676.4862323-1.0.1.1-saHKxGEcEFDs6c2bJ9UUPXqri_dgFY1wKVcxNsou75J_eDLsuBllkDmHA26Um1OOa_u0IumHs4Y.y5nlpK0PFV8GyZnjCBKVEloHiPB5FlpKFohdgAMXUIHdB1xMki_L
+www.psicoresumenes.com	TRUE	/	FALSE	1999999999	__cf_bm	_my3VN1DFBMg5Arcs3AZi5TH_kJSlQt6ub_S4wAzKck-1782805083.0089326-1.0.1.1-HoXsLkH6553LCd6tIeQxAPlQPiTmKJ3.SuQKt7xoQzZhxJUmTWg7NpwqBRkHKsdqorTEXWHu5KDRbcAV01p57XRoE7e.HFx86Ocs5vW4DnHFnOmmGvJCwbsT80I.WIaN
+www.psicoresumenes.com	TRUE	/	FALSE	1999999999	SameSite	None
+
