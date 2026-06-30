@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Fuentes: tratar siempre como binario (evita corrupción por normalización de saltos de línea)
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.otf binary
