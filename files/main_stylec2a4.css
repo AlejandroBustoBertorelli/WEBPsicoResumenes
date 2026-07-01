@@ -262,3 +262,11 @@ div.paragraph ul, div.paragraph ol { padding-left: 3em !important; margin: 5px 0
 div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
 div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
 div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
+
+/* ===== Contraste del banner de encabezado (blogs / resúmenes) ===== */
+.wsite-header-section.wsite-section-bg-image{position:relative;}
+.wsite-header-section.wsite-section-bg-image::before{content:"";position:absolute;top:0;left:0;right:0;bottom:0;z-index:0;pointer-events:none;background:linear-gradient(90deg,rgba(9,44,77,.90) 0%,rgba(9,44,77,.74) 55%,rgba(9,44,77,.62) 100%);}
+.wsite-header-section.wsite-section-bg-image > .wsite-section-content{position:relative;z-index:1;}
+.wsite-header-section .wsite-content-title{text-shadow:0 2px 8px rgba(0,0,0,.55);}
+.wsite-header-section .paragraph{text-shadow:0 1px 5px rgba(0,0,0,.5);}
+.wsite-header-section [class*="uni-card-btn-"]{box-shadow:0 6px 18px rgba(0,0,0,.40) !important;border:1px solid rgba(255,255,255,.30);}
