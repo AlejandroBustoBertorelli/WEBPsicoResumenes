@@ -270,3 +270,6 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 .wsite-header-section .wsite-content-title{text-shadow:0 2px 8px rgba(0,0,0,.55);}
 .wsite-header-section .paragraph{text-shadow:0 1px 5px rgba(0,0,0,.5);}
 .wsite-header-section [class*="uni-card-btn-"]{box-shadow:0 6px 18px rgba(0,0,0,.40) !important;border:1px solid rgba(255,255,255,.30);}
+
+/* ===== Separación del menú para páginas con encabezado azul (gradiente), igual que el gap de los banners de blog ===== */
+#wsite-content > .wsite-section-wrap:first-of-type:has(> .wsite-section.wsite-section-bg-gradient){margin-top:20px;}
