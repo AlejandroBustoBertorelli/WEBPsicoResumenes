@@ -273,3 +273,129 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 
 /* ===== Separación del menú para páginas con encabezado azul (gradiente), igual que el gap de los banners de blog ===== */
 #wsite-content > .wsite-section-wrap:first-of-type:has(> .wsite-section.wsite-section-bg-gradient){margin-top:20px;}
+
+/* ===== Widget de tutorías (tarjetas con Copiar link / Ver en YouTube) — central, antes repetido por página ===== */
+.psr-tut-wrap{display:block; padding:8px 0; overflow:visible!important;}
+
+    .psr-tut-list{
+      --tutoria-hmc-bg: #f7f7f5;
+      --tutoria-hmc-border: #deded9;
+      --tutoria-hmc-text: #0a0a0a;
+
+      
+      --tutoria-hmc-copy: #3a96b8;
+      --tutoria-hmc-copy-dk: #2c6e85;
+
+      
+      --tutoria-hmc-youtube: #FF0000;
+      --tutoria-hmc-youtube-dk: #CC0000;
+
+      --tutoria-hmc-btn-text: #F2F2F2;
+      --tutoria-hmc-radius: 16px;
+      --tutoria-hmc-padY: 16px;
+      --tutoria-hmc-padX: 18px;
+
+      font-family: 'League Spartan', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      display: grid;
+      gap: 14px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .psr-tut-item{
+      background: var(--tutoria-hmc-bg);
+      border: 1.5px solid var(--tutoria-hmc-border);
+      border-radius: var(--tutoria-hmc-radius);
+      padding: var(--tutoria-hmc-padY) var(--tutoria-hmc-padX);
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,.08);
+    }
+
+    .psr-tut-ref{
+      color: var(--tutoria-hmc-text);
+      font-size: 16px;
+      line-height: 1.45;
+      margin-right: 14px;
+      word-break: break-word;
+      text-align: left;
+      padding-left: 8px;
+      max-width: 100%;
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+
+    
+    .psr-tut-btn-group{
+      display: inline-flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .psr-tut-btn{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      min-height: 36px;
+      padding: 8px 14px;
+      border-radius: 10px;
+      color: var(--tutoria-hmc-btn-text);
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 14px;
+      transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+      white-space: nowrap;
+      box-shadow: 0 4px 8px rgba(0,0,0,.18), 0 2px 4px rgba(0,0,0,.12);
+      cursor: pointer;
+      border: none;
+      outline: none;
+    }
+
+    .psr-tut-btn:hover{
+      transform: translateY(-2px);
+      background: linear-gradient(0deg, rgba(255,255,255,.06), rgba(255,255,255,.06));
+      box-shadow: 0 6px 12px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.14);
+    }
+
+    .psr-tut-btn:active{ transform: translateY(0); }
+
+    
+    .psr-btn-copy{ background: var(--tutoria-hmc-copy, #3a96b8); }
+    .psr-btn-copy:hover{ background: var(--tutoria-hmc-copy-dk, #2c6e85); }
+
+    
+    .psr-btn-youtube{ background: var(--tutoria-hmc-youtube, #FF0000); }
+    .psr-btn-youtube:hover{ background: var(--tutoria-hmc-youtube-dk, #CC0000); }
+
+    .psr-tut-ico{
+      width: 18px;
+      height: 18px;
+      flex: 0 0 18px;
+    }
+
+    
+    @media (max-width: 700px){
+      .psr-tut-item{
+        grid-template-columns: 1fr;
+        align-items: start;
+        gap: 10px;
+      }
+
+      .psr-tut-ref{
+        margin-right: 0;
+        font-size: 15px;
+        padding-left: 6px;
+      }
+
+      .psr-tut-btn-group{
+        grid-column: 1 / -1;
+        width: 100%;
+      }
+
+      .psr-tut-btn{
+        width: 100%;
+        justify-content: center;
+      }
+    }

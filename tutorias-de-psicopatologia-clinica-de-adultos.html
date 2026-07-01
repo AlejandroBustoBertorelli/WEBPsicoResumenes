@@ -30,7 +30,7 @@
 		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="cdn11.editmysite.com/css/sitesd746.css?buildtime=1782335418" />
 <link rel="stylesheet" type="text/css" href="cdn11.editmysite.com/css/old/fancyboxd746.css?buildtime=1782335418" />
 <link rel="stylesheet" type="text/css" href="cdn11.editmysite.com/css/social-iconsd746.css?buildtime=1782335418" media="screen,projection" />
-<link rel="stylesheet" type="text/css" href="files/main_stylec2a4.css?1782681744" title="wsite-theme-css" />
+<link rel="stylesheet" type="text/css" href="files/main_stylec2a4.css?v=20260701" title="wsite-theme-css" />
 <link href='cdn2.editmysite.com/fonts/Quattrocento_Sans/fontc81e.css?2' rel='stylesheet' type='text/css' />
 <link href='cdn2.editmysite.com/fonts/Quattrocento/fontc81e.css?2' rel='stylesheet' type='text/css' />
 
@@ -274,149 +274,23 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 <div class="paragraph"><strong><font size="6" color="#0a3965">Lista de reproducci&oacute;n</font></strong></div>
 
 <div><div id="307246288999593062" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Lista de reproduccion === -->
-<div class="lista-de-reproduccion-wrap">
-  <style>
-    /* ======= Scope exclusivo ======= */
-    .lista-de-reproduccion-wrap{display:block; padding:8px 0; overflow:visible!important;}
+<div class="psr-tut-wrap">
+  
 
-    .lista-de-reproduccion-list{
-      --tutoria-hmc-bg: #f7f7f5;
-      --tutoria-hmc-border: #deded9;
-      --tutoria-hmc-text: #0a0a0a;
-
-      /* □ Copiar link */
-      --tutoria-hmc-copy: #3a96b8;
-      --tutoria-hmc-copy-dk: #2c6e85;
-
-      /* □ YouTube */
-      --tutoria-hmc-youtube: #FF0000;
-      --tutoria-hmc-youtube-dk: #CC0000;
-
-      --tutoria-hmc-btn-text: #F2F2F2;
-      --tutoria-hmc-radius: 16px;
-      --tutoria-hmc-padY: 16px;
-      --tutoria-hmc-padX: 18px;
-
-      font-family: 'League Spartan', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      display: grid;
-      gap: 14px;
-      padding: 0;
-      list-style: none;
-    }
-
-    .lista-de-reproduccion-item{
-      background: var(--tutoria-hmc-bg);
-      border: 1.5px solid var(--tutoria-hmc-border);
-      border-radius: var(--tutoria-hmc-radius);
-      padding: var(--tutoria-hmc-padY) var(--tutoria-hmc-padX);
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      align-items: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,.08);
-    }
-
-    .lista-de-reproduccion-ref{
-      color: var(--tutoria-hmc-text);
-      font-size: 16px;
-      line-height: 1.45;
-      margin-right: 14px;
-      word-break: break-word;
-      text-align: left;
-      padding-left: 8px;
-      max-width: 100%;
-      min-width: 0;
-      overflow-wrap: anywhere;
-    }
-
-    /* ===== Botones ===== */
-    .lista-de-reproduccion-btn-group{
-      display: inline-flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .lista-de-reproduccion-btn{
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      min-height: 36px;
-      padding: 8px 14px;
-      border-radius: 10px;
-      color: var(--tutoria-hmc-btn-text);
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 14px;
-      transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
-      white-space: nowrap;
-      box-shadow: 0 4px 8px rgba(0,0,0,.18), 0 2px 4px rgba(0,0,0,.12);
-      cursor: pointer;
-      border: none;
-      outline: none;
-    }
-
-    .lista-de-reproduccion-btn:hover{
-      transform: translateY(-2px);
-      background: linear-gradient(0deg, rgba(255,255,255,.06), rgba(255,255,255,.06));
-      box-shadow: 0 6px 12px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.14);
-    }
-
-    .lista-de-reproduccion-btn:active{ transform: translateY(0); }
-
-    /* □ Copiar */
-    .btn-tutoria-hmc-copy{ background: var(--tutoria-hmc-copy); }
-    .btn-tutoria-hmc-copy:hover{ background: var(--tutoria-hmc-copy-dk); }
-
-    /* □ YouTube */
-    .btn-tutoria-hmc-youtube{ background: var(--tutoria-hmc-youtube); }
-    .btn-tutoria-hmc-youtube:hover{ background: var(--tutoria-hmc-youtube-dk); }
-
-    .lista-de-reproduccion-ico{
-      width: 18px;
-      height: 18px;
-      flex: 0 0 18px;
-    }
-
-    /* ======= Ajustes móviles ======= */
-    @media (max-width: 700px){
-      .lista-de-reproduccion-item{
-        grid-template-columns: 1fr;
-        align-items: start;
-        gap: 10px;
-      }
-
-      .lista-de-reproduccion-ref{
-        margin-right: 0;
-        font-size: 15px;
-        padding-left: 6px;
-      }
-
-      .lista-de-reproduccion-btn-group{
-        grid-column: 1 / -1;
-        width: 100%;
-      }
-
-      .lista-de-reproduccion-btn{
-        width: 100%;
-        justify-content: center;
-      }
-    }
-  </style>
-
-  <ul class="lista-de-reproduccion-list">
-    <li class="lista-de-reproduccion-item">
-      <div class="lista-de-reproduccion-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Encontrá todas las tutorías de PsicoResúmenes sobre <b>Psicopatología Clínica de Adultos</b> en esta lista de reproducción.
       </div>
 
-      <div class="lista-de-reproduccion-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="lista-de-reproduccion-btn btn-tutoria-hmc-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             `Mirá las tutorías de PsicoResúmenes sobre Psicopatología Clínica de Adultos\nhttps://www.youtube.com/playlist?list=PLhvK72m_WZNS9MIQ_en49VanK0vkcTpUS`
           )">
-          <svg class="lista-de-reproduccion-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -424,10 +298,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="lista-de-reproduccion-btn btn-tutoria-hmc-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://www.youtube.com/playlist?list=PLhvK72m_WZNS9MIQ_en49VanK0vkcTpUS"
           target="_blank">
-          <svg class="lista-de-reproduccion-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -447,140 +321,23 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 <div class="paragraph"><font color="#0a3965" size="6"><strong>Introducci&oacute;n a la psicopatolog&iacute;a</strong></font></div>
 
 <div><div id="988011236991368275" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Conceptos fundamentales de psicopatología === -->
-<div class="hipotesis-bender-wrap">
-  <style>
-    .hipotesis-bender-wrap{display:block; padding:8px 0; overflow:visible!important;}
+<div class="psr-tut-wrap">
+  
 
-    .hipotesis-bender-list{
-      --tutoria-hmc-bg: #f7f7f5;
-      --tutoria-hmc-border: #deded9;
-      --tutoria-hmc-text: #0a0a0a;
-
-      --tutoria-hmc-copy: #3a96b8;
-      --tutoria-hmc-copy-dk: #2c6e85;
-
-      --tutoria-hmc-youtube: #FF0000;
-      --tutoria-hmc-youtube-dk: #CC0000;
-
-      --tutoria-hmc-btn-text: #F2F2F2;
-      --tutoria-hmc-radius: 16px;
-      --tutoria-hmc-padY: 16px;
-      --tutoria-hmc-padX: 18px;
-
-      font-family: 'League Spartan', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      display: grid;
-      gap: 14px;
-      padding: 0;
-      list-style: none;
-    }
-
-    .hipotesis-bender-item{
-      background: var(--tutoria-hmc-bg);
-      border: 1.5px solid var(--tutoria-hmc-border);
-      border-radius: var(--tutoria-hmc-radius);
-      padding: var(--tutoria-hmc-padY) var(--tutoria-hmc-padX);
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      align-items: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,.08);
-    }
-
-    .hipotesis-bender-ref{
-      color: var(--tutoria-hmc-text);
-      font-size: 16px;
-      line-height: 1.45;
-      margin-right: 14px;
-      word-break: break-word;
-      text-align: left;
-      padding-left: 8px;
-      max-width: 100%;
-      min-width: 0;
-      overflow-wrap: anywhere;
-    }
-
-    .hipotesis-bender-btn-group{
-      display: inline-flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .hipotesis-bender-btn{
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      min-height: 36px;
-      padding: 8px 14px;
-      border-radius: 10px;
-      color: var(--tutoria-hmc-btn-text);
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 14px;
-      transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
-      white-space: nowrap;
-      box-shadow: 0 4px 8px rgba(0,0,0,.18), 0 2px 4px rgba(0,0,0,.12);
-      cursor: pointer;
-      border: none;
-      outline: none;
-    }
-
-    .hipotesis-bender-btn:hover{
-      transform: translateY(-2px);
-      background: linear-gradient(0deg, rgba(255,255,255,.06), rgba(255,255,255,.06));
-      box-shadow: 0 6px 12px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.14);
-    }
-
-    .btn-hipotesis-bender-copy{ background: var(--tutoria-hmc-copy); }
-    .btn-hipotesis-bender-copy:hover{ background: var(--tutoria-hmc-copy-dk); }
-
-    .btn-hipotesis-bender-youtube{ background: var(--tutoria-hmc-youtube); }
-    .btn-hipotesis-bender-youtube:hover{ background: var(--tutoria-hmc-youtube-dk); }
-
-    .hipotesis-bender-ico{
-      width: 18px;
-      height: 18px;
-      flex: 0 0 18px;
-    }
-
-    @media (max-width: 700px){
-      .hipotesis-bender-item{
-        grid-template-columns: 1fr;
-        align-items: start;
-        gap: 10px;
-      }
-
-      .hipotesis-bender-ref{
-        margin-right: 0;
-        font-size: 15px;
-        padding-left: 6px;
-      }
-
-      .hipotesis-bender-btn-group{
-        grid-column: 1 / -1;
-        width: 100%;
-      }
-
-      .hipotesis-bender-btn{
-        width: 100%;
-        justify-content: center;
-      }
-    }
-  </style>
-
-  <ul class="hipotesis-bender-list">
-    <li class="hipotesis-bender-item">
-      <div class="hipotesis-bender-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         <b>Conceptos fundamentales de psicopatología:</b> Agudeza, cronicidad, síntoma, signo, síndrome y más
       </div>
 
-      <div class="hipotesis-bender-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="hipotesis-bender-btn btn-hipotesis-bender-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             `Mirá esta tutoría de PsicoResúmenes sobre algunos conceptos fundamentales de psicopatología clínica de adultos\nhttps://youtu.be/kwtyIjbMBXo`
           )">
-          <svg class="hipotesis-bender-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -588,10 +345,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="hipotesis-bender-btn btn-hipotesis-bender-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/kwtyIjbMBXo"
           target="_blank">
-          <svg class="hipotesis-bender-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -610,140 +367,23 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 <div class="paragraph"><font color="#0a3965" size="6"><strong>Psicosis: Esquizofrenia, paranoia y otros</strong></font></div>
 
 <div><div id="136772441636786088" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Diagnóstico de Esquizofrenia === -->
-<div class="hipotesis-bender-wrap">
-  <style>
-    .hipotesis-bender-wrap{display:block; padding:8px 0; overflow:visible!important;}
+<div class="psr-tut-wrap">
+  
 
-    .hipotesis-bender-list{
-      --tutoria-hmc-bg: #f7f7f5;
-      --tutoria-hmc-border: #deded9;
-      --tutoria-hmc-text: #0a0a0a;
-
-      --tutoria-hmc-copy: #3a96b8;
-      --tutoria-hmc-copy-dk: #2c6e85;
-
-      --tutoria-hmc-youtube: #FF0000;
-      --tutoria-hmc-youtube-dk: #CC0000;
-
-      --tutoria-hmc-btn-text: #F2F2F2;
-      --tutoria-hmc-radius: 16px;
-      --tutoria-hmc-padY: 16px;
-      --tutoria-hmc-padX: 18px;
-
-      font-family: 'League Spartan', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      display: grid;
-      gap: 14px;
-      padding: 0;
-      list-style: none;
-    }
-
-    .hipotesis-bender-item{
-      background: var(--tutoria-hmc-bg);
-      border: 1.5px solid var(--tutoria-hmc-border);
-      border-radius: var(--tutoria-hmc-radius);
-      padding: var(--tutoria-hmc-padY) var(--tutoria-hmc-padX);
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      align-items: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,.08);
-    }
-
-    .hipotesis-bender-ref{
-      color: var(--tutoria-hmc-text);
-      font-size: 16px;
-      line-height: 1.45;
-      margin-right: 14px;
-      word-break: break-word;
-      text-align: left;
-      padding-left: 8px;
-      max-width: 100%;
-      min-width: 0;
-      overflow-wrap: anywhere;
-    }
-
-    .hipotesis-bender-btn-group{
-      display: inline-flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .hipotesis-bender-btn{
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      min-height: 36px;
-      padding: 8px 14px;
-      border-radius: 10px;
-      color: var(--tutoria-hmc-btn-text);
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 14px;
-      transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
-      white-space: nowrap;
-      box-shadow: 0 4px 8px rgba(0,0,0,.18), 0 2px 4px rgba(0,0,0,.12);
-      cursor: pointer;
-      border: none;
-      outline: none;
-    }
-
-    .hipotesis-bender-btn:hover{
-      transform: translateY(-2px);
-      background: linear-gradient(0deg, rgba(255,255,255,.06), rgba(255,255,255,.06));
-      box-shadow: 0 6px 12px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.14);
-    }
-
-    .btn-hipotesis-bender-copy{ background: var(--tutoria-hmc-copy); }
-    .btn-hipotesis-bender-copy:hover{ background: var(--tutoria-hmc-copy-dk); }
-
-    .btn-hipotesis-bender-youtube{ background: var(--tutoria-hmc-youtube); }
-    .btn-hipotesis-bender-youtube:hover{ background: var(--tutoria-hmc-youtube-dk); }
-
-    .hipotesis-bender-ico{
-      width: 18px;
-      height: 18px;
-      flex: 0 0 18px;
-    }
-
-    @media (max-width: 700px){
-      .hipotesis-bender-item{
-        grid-template-columns: 1fr;
-        align-items: start;
-        gap: 10px;
-      }
-
-      .hipotesis-bender-ref{
-        margin-right: 0;
-        font-size: 15px;
-        padding-left: 6px;
-      }
-
-      .hipotesis-bender-btn-group{
-        grid-column: 1 / -1;
-        width: 100%;
-      }
-
-      .hipotesis-bender-btn{
-        width: 100%;
-        justify-content: center;
-      }
-    }
-  </style>
-
-  <ul class="hipotesis-bender-list">
-    <li class="hipotesis-bender-item">
-      <div class="hipotesis-bender-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Diagnóstico de Esquizofrenia: <b>¿Cuáles son las características clínicas y sus formas de comienzo?</b>
       </div>
 
-      <div class="hipotesis-bender-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="hipotesis-bender-btn btn-hipotesis-bender-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             `Mirá esta tutoría de PsicoResúmenes sobre las características clínicas y formas de comienzo de la Esquizofrenia\nhttps://youtu.be/-r4dd1J1TJ0`
           )">
-          <svg class="hipotesis-bender-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -751,10 +391,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="hipotesis-bender-btn btn-hipotesis-bender-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/-r4dd1J1TJ0"
           target="_blank">
-          <svg class="hipotesis-bender-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -769,140 +409,23 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="282848069103797741" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Síndrome de discordancia === -->
-<div class="hipotesis-bender-wrap">
-  <style>
-    .hipotesis-bender-wrap{display:block; padding:8px 0; overflow:visible!important;}
+<div class="psr-tut-wrap">
+  
 
-    .hipotesis-bender-list{
-      --tutoria-hmc-bg: #f7f7f5;
-      --tutoria-hmc-border: #deded9;
-      --tutoria-hmc-text: #0a0a0a;
-
-      --tutoria-hmc-copy: #3a96b8;
-      --tutoria-hmc-copy-dk: #2c6e85;
-
-      --tutoria-hmc-youtube: #FF0000;
-      --tutoria-hmc-youtube-dk: #CC0000;
-
-      --tutoria-hmc-btn-text: #F2F2F2;
-      --tutoria-hmc-radius: 16px;
-      --tutoria-hmc-padY: 16px;
-      --tutoria-hmc-padX: 18px;
-
-      font-family: 'League Spartan', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      display: grid;
-      gap: 14px;
-      padding: 0;
-      list-style: none;
-    }
-
-    .hipotesis-bender-item{
-      background: var(--tutoria-hmc-bg);
-      border: 1.5px solid var(--tutoria-hmc-border);
-      border-radius: var(--tutoria-hmc-radius);
-      padding: var(--tutoria-hmc-padY) var(--tutoria-hmc-padX);
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      align-items: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,.08);
-    }
-
-    .hipotesis-bender-ref{
-      color: var(--tutoria-hmc-text);
-      font-size: 16px;
-      line-height: 1.45;
-      margin-right: 14px;
-      word-break: break-word;
-      text-align: left;
-      padding-left: 8px;
-      max-width: 100%;
-      min-width: 0;
-      overflow-wrap: anywhere;
-    }
-
-    .hipotesis-bender-btn-group{
-      display: inline-flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .hipotesis-bender-btn{
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      min-height: 36px;
-      padding: 8px 14px;
-      border-radius: 10px;
-      color: var(--tutoria-hmc-btn-text);
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 14px;
-      transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
-      white-space: nowrap;
-      box-shadow: 0 4px 8px rgba(0,0,0,.18), 0 2px 4px rgba(0,0,0,.12);
-      cursor: pointer;
-      border: none;
-      outline: none;
-    }
-
-    .hipotesis-bender-btn:hover{
-      transform: translateY(-2px);
-      background: linear-gradient(0deg, rgba(255,255,255,.06), rgba(255,255,255,.06));
-      box-shadow: 0 6px 12px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.14);
-    }
-
-    .btn-hipotesis-bender-copy{ background: var(--tutoria-hmc-copy); }
-    .btn-hipotesis-bender-copy:hover{ background: var(--tutoria-hmc-copy-dk); }
-
-    .btn-hipotesis-bender-youtube{ background: var(--tutoria-hmc-youtube); }
-    .btn-hipotesis-bender-youtube:hover{ background: var(--tutoria-hmc-youtube-dk); }
-
-    .hipotesis-bender-ico{
-      width: 18px;
-      height: 18px;
-      flex: 0 0 18px;
-    }
-
-    @media (max-width: 700px){
-      .hipotesis-bender-item{
-        grid-template-columns: 1fr;
-        align-items: start;
-        gap: 10px;
-      }
-
-      .hipotesis-bender-ref{
-        margin-right: 0;
-        font-size: 15px;
-        padding-left: 6px;
-      }
-
-      .hipotesis-bender-btn-group{
-        grid-column: 1 / -1;
-        width: 100%;
-      }
-
-      .hipotesis-bender-btn{
-        width: 100%;
-        justify-content: center;
-      }
-    }
-  </style>
-
-  <ul class="hipotesis-bender-list">
-    <li class="hipotesis-bender-item">
-      <div class="hipotesis-bender-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         El síndrome fundamental del diagnóstico de Esquizofrenia: <b>Síndrome de discordancia</b>
       </div>
 
-      <div class="hipotesis-bender-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="hipotesis-bender-btn btn-hipotesis-bender-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             `Mirá esta tutoría de PsicoResúmenes sobre el síndrome fundamental de la esquizofrenia: el síndrome de discordancia\nhttps://youtu.be/UsbwM3i_4bo`
           )">
-          <svg class="hipotesis-bender-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -910,10 +433,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="hipotesis-bender-btn btn-hipotesis-bender-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/UsbwM3i_4bo"
           target="_blank">
-          <svg class="hipotesis-bender-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -928,140 +451,23 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="452851928867167607" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tipos de delirios en Esquizofrenia === -->
-<div class="delirios-esquizofrenia-wrap">
-  <style>
-    .delirios-esquizofrenia-wrap { display: block; padding: 8px 0; overflow: visible !important; }
+<div class="psr-tut-wrap">
+  
 
-    .delirios-esquizofrenia-list {
-      --tutoria-hmc-bg: #f7f7f5;
-      --tutoria-hmc-border: #deded9;
-      --tutoria-hmc-text: #0a0a0a;
-
-      --tutoria-hmc-copy: #3a96b8;
-      --tutoria-hmc-copy-dk: #2c6e85;
-
-      --tutoria-hmc-youtube: #FF0000;
-      --tutoria-hmc-youtube-dk: #CC0000;
-
-      --tutoria-hmc-btn-text: #F2F2F2;
-      --tutoria-hmc-radius: 16px;
-      --tutoria-hmc-padY: 16px;
-      --tutoria-hmc-padX: 18px;
-
-      font-family: 'League Spartan', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      display: grid;
-      gap: 14px;
-      padding: 0;
-      list-style: none;
-    }
-
-    .delirios-esquizofrenia-item {
-      background: var(--tutoria-hmc-bg);
-      border: 1.5px solid var(--tutoria-hmc-border);
-      border-radius: var(--tutoria-hmc-radius);
-      padding: var(--tutoria-hmc-padY) var(--tutoria-hmc-padX);
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      align-items: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,.08);
-    }
-
-    .delirios-esquizofrenia-ref {
-      color: var(--tutoria-hmc-text);
-      font-size: 16px;
-      line-height: 1.45;
-      margin-right: 14px;
-      word-break: break-word;
-      text-align: left;
-      padding-left: 8px;
-      max-width: 100%;
-      min-width: 0;
-      overflow-wrap: anywhere;
-    }
-
-    .delirios-esquizofrenia-btn-group {
-      display: inline-flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .delirios-esquizofrenia-btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      min-height: 36px;
-      padding: 8px 14px;
-      border-radius: 10px;
-      color: var(--tutoria-hmc-btn-text);
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 14px;
-      transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
-      white-space: nowrap;
-      box-shadow: 0 4px 8px rgba(0,0,0,.18), 0 2px 4px rgba(0,0,0,.12);
-      cursor: pointer;
-      border: none;
-      outline: none;
-    }
-
-    .delirios-esquizofrenia-btn:hover {
-      transform: translateY(-2px);
-      background: linear-gradient(0deg, rgba(255,255,255,.06), rgba(255,255,255,.06));
-      box-shadow: 0 6px 12px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.14);
-    }
-
-    .btn-delirios-esquizofrenia-copy { background: var(--tutoria-hmc-copy); }
-    .btn-delirios-esquizofrenia-copy:hover { background: var(--tutoria-hmc-copy-dk); }
-
-    .btn-delirios-esquizofrenia-youtube { background: var(--tutoria-hmc-youtube); }
-    .btn-delirios-esquizofrenia-youtube:hover { background: var(--tutoria-hmc-youtube-dk); }
-
-    .delirios-esquizofrenia-ico {
-      width: 18px;
-      height: 18px;
-      flex: 0 0 18px;
-    }
-
-    @media (max-width: 700px) {
-      .delirios-esquizofrenia-item {
-        grid-template-columns: 1fr;
-        align-items: start;
-        gap: 10px;
-      }
-
-      .delirios-esquizofrenia-ref {
-        margin-right: 0;
-        font-size: 15px;
-        padding-left: 6px;
-      }
-
-      .delirios-esquizofrenia-btn-group {
-        grid-column: 1 / -1;
-        width: 100%;
-      }
-
-      .delirios-esquizofrenia-btn {
-        width: 100%;
-        justify-content: center;
-      }
-    }
-  </style>
-
-  <ul class="delirios-esquizofrenia-list">
-    <li class="delirios-esquizofrenia-item">
-      <div class="delirios-esquizofrenia-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         <b>Tipos de delirios en el diagnóstico de Esquizofrenia.</b> Delirio paranoide y autístico ¿Cuáles son?
       </div>
 
-      <div class="delirios-esquizofrenia-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="delirios-esquizofrenia-btn btn-delirios-esquizofrenia-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             `Mirá esta tutoría de PsicoResúmenes sobre los tipos de delirios que pueden identificarse en la Esquizofrenia\nhttps://youtu.be/3GkNJ-c-97A`
           )">
-          <svg class="delirios-esquizofrenia-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -1069,10 +475,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="delirios-esquizofrenia-btn btn-delirios-esquizofrenia-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/3GkNJ-c-97A"
           target="_blank">
-          <svg class="delirios-esquizofrenia-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -1272,140 +678,23 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="315473063747607475" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Psicosis paranoicas y delirios de reivindicación === -->
-<div class="psicosis-reivindicacion-wrap">
-  <style>
-    .psicosis-reivindicacion-wrap { display: block; padding: 8px 0; overflow: visible !important; }
+<div class="psr-tut-wrap">
+  
 
-    .psicosis-reivindicacion-list {
-      --tutoria-hmc-bg: #f7f7f5;
-      --tutoria-hmc-border: #deded9;
-      --tutoria-hmc-text: #0a0a0a;
-
-      --tutoria-hmc-copy: #3a96b8;
-      --tutoria-hmc-copy-dk: #2c6e85;
-
-      --tutoria-hmc-youtube: #FF0000;
-      --tutoria-hmc-youtube-dk: #CC0000;
-
-      --tutoria-hmc-btn-text: #F2F2F2;
-      --tutoria-hmc-radius: 16px;
-      --tutoria-hmc-padY: 16px;
-      --tutoria-hmc-padX: 18px;
-
-      font-family: 'League Spartan', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      display: grid;
-      gap: 14px;
-      padding: 0;
-      list-style: none;
-    }
-
-    .psicosis-reivindicacion-item {
-      background: var(--tutoria-hmc-bg);
-      border: 1.5px solid var(--tutoria-hmc-border);
-      border-radius: var(--tutoria-hmc-radius);
-      padding: var(--tutoria-hmc-padY) var(--tutoria-hmc-padX);
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      align-items: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,.08);
-    }
-
-    .psicosis-reivindicacion-ref {
-      color: var(--tutoria-hmc-text);
-      font-size: 16px;
-      line-height: 1.45;
-      margin-right: 14px;
-      word-break: break-word;
-      text-align: left;
-      padding-left: 8px;
-      max-width: 100%;
-      min-width: 0;
-      overflow-wrap: anywhere;
-    }
-
-    .psicosis-reivindicacion-btn-group {
-      display: inline-flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .psicosis-reivindicacion-btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      min-height: 36px;
-      padding: 8px 14px;
-      border-radius: 10px;
-      color: var(--tutoria-hmc-btn-text);
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 14px;
-      transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
-      white-space: nowrap;
-      box-shadow: 0 4px 8px rgba(0,0,0,.18), 0 2px 4px rgba(0,0,0,.12);
-      cursor: pointer;
-      border: none;
-      outline: none;
-    }
-
-    .psicosis-reivindicacion-btn:hover {
-      transform: translateY(-2px);
-      background: linear-gradient(0deg, rgba(255,255,255,.06), rgba(255,255,255,.06));
-      box-shadow: 0 6px 12px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.14);
-    }
-
-    .btn-psicosis-reivindicacion-copy { background: var(--tutoria-hmc-copy); }
-    .btn-psicosis-reivindicacion-copy:hover { background: var(--tutoria-hmc-copy-dk); }
-
-    .btn-psicosis-reivindicacion-youtube { background: var(--tutoria-hmc-youtube); }
-    .btn-psicosis-reivindicacion-youtube:hover { background: var(--tutoria-hmc-youtube-dk); }
-
-    .psicosis-reivindicacion-ico {
-      width: 18px;
-      height: 18px;
-      flex: 0 0 18px;
-    }
-
-    @media (max-width: 700px) {
-      .psicosis-reivindicacion-item {
-        grid-template-columns: 1fr;
-        align-items: start;
-        gap: 10px;
-      }
-
-      .psicosis-reivindicacion-ref {
-        margin-right: 0;
-        font-size: 15px;
-        padding-left: 6px;
-      }
-
-      .psicosis-reivindicacion-btn-group {
-        grid-column: 1 / -1;
-        width: 100%;
-      }
-
-      .psicosis-reivindicacion-btn {
-        width: 100%;
-        justify-content: center;
-      }
-    }
-  </style>
-
-  <ul class="psicosis-reivindicacion-list">
-    <li class="psicosis-reivindicacion-item">
-      <div class="psicosis-reivindicacion-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         <b>Psicosis paranoicas: Delirios de reivindicación:</b> Los apasionados idealistas de Henri Ey
       </div>
 
-      <div class="psicosis-reivindicacion-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="psicosis-reivindicacion-btn btn-psicosis-reivindicacion-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             `Mirá esta tutoría de PsicoResúmenes sobre psicosis paranoicas y delirios de reivindicación\nhttps://youtu.be/GnWt7p9qVBI`
           )">
-          <svg class="psicosis-reivindicacion-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -1413,10 +702,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="psicosis-reivindicacion-btn btn-psicosis-reivindicacion-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/GnWt7p9qVBI"
           target="_blank">
-          <svg class="psicosis-reivindicacion-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -1432,140 +721,23 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="761926818563947859" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Características clínicas de las psicosis delirante aguda === -->
-<div class="psicosis-delirante-aguda-wrap">
-  <style>
-    .psicosis-delirante-aguda-wrap { display: block; padding: 8px 0; overflow: visible !important; }
+<div class="psr-tut-wrap">
+  
 
-    .psicosis-delirante-aguda-list {
-      --tutoria-hmc-bg: #f7f7f5;
-      --tutoria-hmc-border: #deded9;
-      --tutoria-hmc-text: #0a0a0a;
-
-      --tutoria-hmc-copy: #3a96b8;
-      --tutoria-hmc-copy-dk: #2c6e85;
-
-      --tutoria-hmc-youtube: #FF0000;
-      --tutoria-hmc-youtube-dk: #CC0000;
-
-      --tutoria-hmc-btn-text: #F2F2F2;
-      --tutoria-hmc-radius: 16px;
-      --tutoria-hmc-padY: 16px;
-      --tutoria-hmc-padX: 18px;
-
-      font-family: 'League Spartan', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      display: grid;
-      gap: 14px;
-      padding: 0;
-      list-style: none;
-    }
-
-    .psicosis-delirante-aguda-item {
-      background: var(--tutoria-hmc-bg);
-      border: 1.5px solid var(--tutoria-hmc-border);
-      border-radius: var(--tutoria-hmc-radius);
-      padding: var(--tutoria-hmc-padY) var(--tutoria-hmc-padX);
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      align-items: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,.08);
-    }
-
-    .psicosis-delirante-aguda-ref {
-      color: var(--tutoria-hmc-text);
-      font-size: 16px;
-      line-height: 1.45;
-      margin-right: 14px;
-      word-break: break-word;
-      text-align: left;
-      padding-left: 8px;
-      max-width: 100%;
-      min-width: 0;
-      overflow-wrap: anywhere;
-    }
-
-    .psicosis-delirante-aguda-btn-group {
-      display: inline-flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .psicosis-delirante-aguda-btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      min-height: 36px;
-      padding: 8px 14px;
-      border-radius: 10px;
-      color: var(--tutoria-hmc-btn-text);
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 14px;
-      transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
-      white-space: nowrap;
-      box-shadow: 0 4px 8px rgba(0,0,0,.18), 0 2px 4px rgba(0,0,0,.12);
-      cursor: pointer;
-      border: none;
-      outline: none;
-    }
-
-    .psicosis-delirante-aguda-btn:hover {
-      transform: translateY(-2px);
-      background: linear-gradient(0deg, rgba(255,255,255,.06), rgba(255,255,255,.06));
-      box-shadow: 0 6px 12px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.14);
-    }
-
-    .btn-psicosis-delirante-aguda-copy { background: var(--tutoria-hmc-copy); }
-    .btn-psicosis-delirante-aguda-copy:hover { background: var(--tutoria-hmc-copy-dk); }
-
-    .btn-psicosis-delirante-aguda-youtube { background: var(--tutoria-hmc-youtube); }
-    .btn-psicosis-delirante-aguda-youtube:hover { background: var(--tutoria-hmc-youtube-dk); }
-
-    .psicosis-delirante-aguda-ico {
-      width: 18px;
-      height: 18px;
-      flex: 0 0 18px;
-    }
-
-    @media (max-width: 700px) {
-      .psicosis-delirante-aguda-item {
-        grid-template-columns: 1fr;
-        align-items: start;
-        gap: 10px;
-      }
-
-      .psicosis-delirante-aguda-ref {
-        margin-right: 0;
-        font-size: 15px;
-        padding-left: 6px;
-      }
-
-      .psicosis-delirante-aguda-btn-group {
-        grid-column: 1 / -1;
-        width: 100%;
-      }
-
-      .psicosis-delirante-aguda-btn {
-        width: 100%;
-        justify-content: center;
-      }
-    }
-  </style>
-
-  <ul class="psicosis-delirante-aguda-list">
-    <li class="psicosis-delirante-aguda-item">
-      <div class="psicosis-delirante-aguda-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Características clínicas de las psicosis <b>delirante aguda (PDA) o trastorno psicótico breve</b>
       </div>
 
-      <div class="psicosis-delirante-aguda-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="psicosis-delirante-aguda-btn btn-psicosis-delirante-aguda-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             `Mirá esta tutoría de PsicoResúmenes sobre las características clínicas de las psicosis delirante aguda (PDA) o trastorno psicótico breve\nhttps://youtu.be/EMTgc2waJDA`
           )">
-          <svg class="psicosis-delirante-aguda-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -1573,10 +745,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="psicosis-delirante-aguda-btn btn-psicosis-delirante-aguda-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/EMTgc2waJDA"
           target="_blank">
-          <svg class="psicosis-delirante-aguda-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube

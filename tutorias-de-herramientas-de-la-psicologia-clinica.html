@@ -30,7 +30,7 @@
 		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="cdn11.editmysite.com/css/sitesd746.css?buildtime=1782335418" />
 <link rel="stylesheet" type="text/css" href="cdn11.editmysite.com/css/old/fancyboxd746.css?buildtime=1782335418" />
 <link rel="stylesheet" type="text/css" href="cdn11.editmysite.com/css/social-iconsd746.css?buildtime=1782335418" media="screen,projection" />
-<link rel="stylesheet" type="text/css" href="files/main_stylec2a4.css?1782681744" title="wsite-theme-css" />
+<link rel="stylesheet" type="text/css" href="files/main_stylec2a4.css?v=20260701" title="wsite-theme-css" />
 <link href='cdn2.editmysite.com/fonts/Quattrocento_Sans/fontc81e.css?2' rel='stylesheet' type='text/css' />
 <link href='cdn2.editmysite.com/fonts/Quattrocento/fontc81e.css?2' rel='stylesheet' type='text/css' />
 
@@ -274,149 +274,23 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 <div class="paragraph"><font color="#0a3965" size="6"><strong>Prepar&aacute; los parciales y examen</strong></font></div>
 
 <div><div id="877010746564315531" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Lista de reproduccion === -->
-<div class="lista-de-reproduccion-wrap">
-  <style>
-    /* ======= Scope exclusivo ======= */
-    .lista-de-reproduccion-wrap{display:block; padding:8px 0; overflow:visible!important;}
+<div class="psr-tut-wrap">
+  
 
-    .lista-de-reproduccion-list{
-      --tutoria-hmc-bg: #f7f7f5;
-      --tutoria-hmc-border: #deded9;
-      --tutoria-hmc-text: #0a0a0a;
-
-      /* □ Copiar link */
-      --tutoria-hmc-copy: #3a96b8;
-      --tutoria-hmc-copy-dk: #2c6e85;
-
-      /* □ YouTube */
-      --tutoria-hmc-youtube: #FF0000;
-      --tutoria-hmc-youtube-dk: #CC0000;
-
-      --tutoria-hmc-btn-text: #F2F2F2;
-      --tutoria-hmc-radius: 16px;
-      --tutoria-hmc-padY: 16px;
-      --tutoria-hmc-padX: 18px;
-
-      font-family: 'League Spartan', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      display: grid;
-      gap: 14px;
-      padding: 0;
-      list-style: none;
-    }
-
-    .lista-de-reproduccion-item{
-      background: var(--tutoria-hmc-bg);
-      border: 1.5px solid var(--tutoria-hmc-border);
-      border-radius: var(--tutoria-hmc-radius);
-      padding: var(--tutoria-hmc-padY) var(--tutoria-hmc-padX);
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      align-items: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,.08);
-    }
-
-    .lista-de-reproduccion-ref{
-      color: var(--tutoria-hmc-text);
-      font-size: 16px;
-      line-height: 1.45;
-      margin-right: 14px;
-      word-break: break-word;
-      text-align: left;
-      padding-left: 8px;
-      max-width: 100%;
-      min-width: 0;
-      overflow-wrap: anywhere;
-    }
-
-    /* ===== Botones ===== */
-    .lista-de-reproduccion-btn-group{
-      display: inline-flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .lista-de-reproduccion-btn{
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      min-height: 36px;
-      padding: 8px 14px;
-      border-radius: 10px;
-      color: var(--tutoria-hmc-btn-text);
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 14px;
-      transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
-      white-space: nowrap;
-      box-shadow: 0 4px 8px rgba(0,0,0,.18), 0 2px 4px rgba(0,0,0,.12);
-      cursor: pointer;
-      border: none;
-      outline: none;
-    }
-
-    .lista-de-reproduccion-btn:hover{
-      transform: translateY(-2px);
-      background: linear-gradient(0deg, rgba(255,255,255,.06), rgba(255,255,255,.06));
-      box-shadow: 0 6px 12px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.14);
-    }
-
-    .lista-de-reproduccion-btn:active{ transform: translateY(0); }
-
-    /* □ Copiar */
-    .btn-tutoria-hmc-copy{ background: var(--tutoria-hmc-copy); }
-    .btn-tutoria-hmc-copy:hover{ background: var(--tutoria-hmc-copy-dk); }
-
-    /* □ YouTube */
-    .btn-tutoria-hmc-youtube{ background: var(--tutoria-hmc-youtube); }
-    .btn-tutoria-hmc-youtube:hover{ background: var(--tutoria-hmc-youtube-dk); }
-
-    .lista-de-reproduccion-ico{
-      width: 18px;
-      height: 18px;
-      flex: 0 0 18px;
-    }
-
-    /* ======= Ajustes móviles ======= */
-    @media (max-width: 700px){
-      .lista-de-reproduccion-item{
-        grid-template-columns: 1fr;
-        align-items: start;
-        gap: 10px;
-      }
-
-      .lista-de-reproduccion-ref{
-        margin-right: 0;
-        font-size: 15px;
-        padding-left: 6px;
-      }
-
-      .lista-de-reproduccion-btn-group{
-        grid-column: 1 / -1;
-        width: 100%;
-      }
-
-      .lista-de-reproduccion-btn{
-        width: 100%;
-        justify-content: center;
-      }
-    }
-  </style>
-
-  <ul class="lista-de-reproduccion-list">
-    <li class="lista-de-reproduccion-item">
-      <div class="lista-de-reproduccion-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Encontrá todas las tutorías de PsicoResúmenes sobre <b>Herramientas de la Psicología Clínica</b> en esta lista de reproducción.
       </div>
 
-      <div class="lista-de-reproduccion-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="lista-de-reproduccion-btn btn-tutoria-hmc-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             `Mirá las tutorías de PsicoResúmenes sobre Herramientas de la Psicología Clínica\nhttps://www.youtube.com/playlist?list=PLhvK72m_WZNRF2O0BriyCTvKAnZRyAJQ9`
           )">
-          <svg class="lista-de-reproduccion-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -424,10 +298,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="lista-de-reproduccion-btn btn-tutoria-hmc-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://www.youtube.com/playlist?list=PLhvK72m_WZNRF2O0BriyCTvKAnZRyAJQ9"
           target="_blank">
-          <svg class="lista-de-reproduccion-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -443,140 +317,23 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="778144313512941673" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Hipótesis clínicas del Bender === -->
-<div class="hipotesis-bender-wrap">
-  <style>
-    .hipotesis-bender-wrap{display:block; padding:8px 0; overflow:visible!important;}
+<div class="psr-tut-wrap">
+  
 
-    .hipotesis-bender-list{
-      --tutoria-hmc-bg: #f7f7f5;
-      --tutoria-hmc-border: #deded9;
-      --tutoria-hmc-text: #0a0a0a;
-
-      --tutoria-hmc-copy: #3a96b8;
-      --tutoria-hmc-copy-dk: #2c6e85;
-
-      --tutoria-hmc-youtube: #FF0000;
-      --tutoria-hmc-youtube-dk: #CC0000;
-
-      --tutoria-hmc-btn-text: #F2F2F2;
-      --tutoria-hmc-radius: 16px;
-      --tutoria-hmc-padY: 16px;
-      --tutoria-hmc-padX: 18px;
-
-      font-family: 'League Spartan', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      display: grid;
-      gap: 14px;
-      padding: 0;
-      list-style: none;
-    }
-
-    .hipotesis-bender-item{
-      background: var(--tutoria-hmc-bg);
-      border: 1.5px solid var(--tutoria-hmc-border);
-      border-radius: var(--tutoria-hmc-radius);
-      padding: var(--tutoria-hmc-padY) var(--tutoria-hmc-padX);
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      align-items: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,.08);
-    }
-
-    .hipotesis-bender-ref{
-      color: var(--tutoria-hmc-text);
-      font-size: 16px;
-      line-height: 1.45;
-      margin-right: 14px;
-      word-break: break-word;
-      text-align: left;
-      padding-left: 8px;
-      max-width: 100%;
-      min-width: 0;
-      overflow-wrap: anywhere;
-    }
-
-    .hipotesis-bender-btn-group{
-      display: inline-flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .hipotesis-bender-btn{
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      min-height: 36px;
-      padding: 8px 14px;
-      border-radius: 10px;
-      color: var(--tutoria-hmc-btn-text);
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 14px;
-      transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
-      white-space: nowrap;
-      box-shadow: 0 4px 8px rgba(0,0,0,.18), 0 2px 4px rgba(0,0,0,.12);
-      cursor: pointer;
-      border: none;
-      outline: none;
-    }
-
-    .hipotesis-bender-btn:hover{
-      transform: translateY(-2px);
-      background: linear-gradient(0deg, rgba(255,255,255,.06), rgba(255,255,255,.06));
-      box-shadow: 0 6px 12px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.14);
-    }
-
-    .btn-hipotesis-bender-copy{ background: var(--tutoria-hmc-copy); }
-    .btn-hipotesis-bender-copy:hover{ background: var(--tutoria-hmc-copy-dk); }
-
-    .btn-hipotesis-bender-youtube{ background: var(--tutoria-hmc-youtube); }
-    .btn-hipotesis-bender-youtube:hover{ background: var(--tutoria-hmc-youtube-dk); }
-
-    .hipotesis-bender-ico{
-      width: 18px;
-      height: 18px;
-      flex: 0 0 18px;
-    }
-
-    @media (max-width: 700px){
-      .hipotesis-bender-item{
-        grid-template-columns: 1fr;
-        align-items: start;
-        gap: 10px;
-      }
-
-      .hipotesis-bender-ref{
-        margin-right: 0;
-        font-size: 15px;
-        padding-left: 6px;
-      }
-
-      .hipotesis-bender-btn-group{
-        grid-column: 1 / -1;
-        width: 100%;
-      }
-
-      .hipotesis-bender-btn{
-        width: 100%;
-        justify-content: center;
-      }
-    }
-  </style>
-
-  <ul class="hipotesis-bender-list">
-    <li class="hipotesis-bender-item">
-      <div class="hipotesis-bender-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Orientación sobre cómo escribir las <b>hipótesis clínicas del Bender</b> vinculándolo con la viñeta
       </div>
 
-      <div class="hipotesis-bender-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="hipotesis-bender-btn btn-hipotesis-bender-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             `Mirá esta tutoría de PsicoResúmenes sobre Herramientas de la Psicología Clínica: ¿cómo escribir las hipótesis clínicas del Bender vinculándolo con la viñeta?\nhttps://youtu.be/rQvxOTgwS1E`
           )">
-          <svg class="hipotesis-bender-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -584,10 +341,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="hipotesis-bender-btn btn-hipotesis-bender-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/rQvxOTgwS1E"
           target="_blank">
-          <svg class="hipotesis-bender-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -603,149 +360,23 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="672760838179245430" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría ¿Cómo es la materia Herramientas de la Psicología Clínica? === -->
-<div class="tutoria-como-es-materia-herramientas-clinica-wrap">
-  <style>
-    /* ======= Scope exclusivo ======= */
-    .tutoria-como-es-materia-herramientas-clinica-wrap{display:block; padding:8px 0; overflow:visible!important;}
+<div class="psr-tut-wrap">
+  
 
-    .tutoria-como-es-materia-herramientas-clinica-list{
-      --tutoria-hmc-bg: #f7f7f5;
-      --tutoria-hmc-border: #deded9;
-      --tutoria-hmc-text: #0a0a0a;
-
-      /* □ Copiar link */
-      --tutoria-hmc-copy: #3a96b8;
-      --tutoria-hmc-copy-dk: #2c6e85;
-
-      /* □ YouTube */
-      --tutoria-hmc-youtube: #FF0000;
-      --tutoria-hmc-youtube-dk: #CC0000;
-
-      --tutoria-hmc-btn-text: #F2F2F2;
-      --tutoria-hmc-radius: 16px;
-      --tutoria-hmc-padY: 16px;
-      --tutoria-hmc-padX: 18px;
-
-      font-family: 'League Spartan', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      display: grid;
-      gap: 14px;
-      padding: 0;
-      list-style: none;
-    }
-
-    .tutoria-como-es-materia-herramientas-clinica-item{
-      background: var(--tutoria-hmc-bg);
-      border: 1.5px solid var(--tutoria-hmc-border);
-      border-radius: var(--tutoria-hmc-radius);
-      padding: var(--tutoria-hmc-padY) var(--tutoria-hmc-padX);
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto; /* evita solapamientos */
-      align-items: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,.08);
-    }
-
-    .tutoria-como-es-materia-herramientas-clinica-ref{
-      color: var(--tutoria-hmc-text);
-      font-size: 16px;
-      line-height: 1.45;
-      margin-right: 14px;
-      word-break: break-word;
-      text-align: left;
-      padding-left: 8px;
-      max-width: 100%;
-      min-width: 0;
-      overflow-wrap: anywhere;
-    }
-
-    /* ===== Botones ===== */
-    .tutoria-como-es-materia-herramientas-clinica-btn-group{
-      display: inline-flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .tutoria-como-es-materia-herramientas-clinica-btn{
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      min-height: 36px;
-      padding: 8px 14px;
-      border-radius: 10px;
-      color: var(--tutoria-hmc-btn-text);
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 14px;
-      transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
-      white-space: nowrap;
-      box-shadow: 0 4px 8px rgba(0,0,0,.18), 0 2px 4px rgba(0,0,0,.12);
-      cursor: pointer;
-      border: none;
-      outline: none;
-    }
-
-    .tutoria-como-es-materia-herramientas-clinica-btn:hover{
-      transform: translateY(-2px);
-      background: linear-gradient(0deg, rgba(255,255,255,.06), rgba(255,255,255,.06));
-      box-shadow: 0 6px 12px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.14);
-    }
-
-    .tutoria-como-es-materia-herramientas-clinica-btn:active{ transform: translateY(0); }
-
-    /* □ Copiar */
-    .btn-tutoria-hmc-copy{ background: var(--tutoria-hmc-copy); }
-    .btn-tutoria-hmc-copy:hover{ background: var(--tutoria-hmc-copy-dk); }
-
-    /* □ YouTube */
-    .btn-tutoria-hmc-youtube{ background: var(--tutoria-hmc-youtube); }
-    .btn-tutoria-hmc-youtube:hover{ background: var(--tutoria-hmc-youtube-dk); }
-
-    .tutoria-como-es-materia-herramientas-clinica-ico{
-      width: 18px;
-      height: 18px;
-      flex: 0 0 18px;
-    }
-
-    /* ======= Ajustes móviles ======= */
-    @media (max-width: 700px){
-      .tutoria-como-es-materia-herramientas-clinica-item{
-        grid-template-columns: 1fr;
-        align-items: start;
-        gap: 10px;
-      }
-
-      .tutoria-como-es-materia-herramientas-clinica-ref{
-        margin-right: 0;
-        font-size: 15px;
-        padding-left: 6px;
-      }
-
-      .tutoria-como-es-materia-herramientas-clinica-btn-group{
-        grid-column: 1 / -1;
-        width: 100%;
-      }
-
-      .tutoria-como-es-materia-herramientas-clinica-btn{
-        width: 100%;
-        justify-content: center;
-      }
-    }
-  </style>
-
-  <ul class="tutoria-como-es-materia-herramientas-clinica-list">
-    <li class="tutoria-como-es-materia-herramientas-clinica-item">
-      <div class="tutoria-como-es-materia-herramientas-clinica-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         <b>¿Cómo es la materia Herramientas de la Psicología Clínica?</b> Temas dados, parciales, preguntas y más
       </div>
 
-      <div class="tutoria-como-es-materia-herramientas-clinica-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-como-es-materia-herramientas-clinica-btn btn-tutoria-hmc-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre cómo es la materia Herramientas de la Psicología Clínica: Temas dados, parciales, preguntas y más\nhttps://youtu.be/fd30vI-k_po'
           )">
-          <svg class="tutoria-como-es-materia-herramientas-clinica-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -753,10 +384,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-como-es-materia-herramientas-clinica-btn btn-tutoria-hmc-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/fd30vI-k_po"
           target="_blank">
-          <svg class="tutoria-como-es-materia-herramientas-clinica-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -772,7 +403,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="357479747995716581" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Redacción en parciales y exámenes === -->
-<div class="tutoria-redaccion-parciales-examenes-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-redaccion-parciales-examenes-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -902,20 +533,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-redaccion-parciales-examenes-list">
-    <li class="tutoria-redaccion-parciales-examenes-item">
-      <div class="tutoria-redaccion-parciales-examenes-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         <b>Redacción en parciales y exámenes:</b> ¿Cómo redactar nuestras respuestas? ¿Cómo elaborar nuestras hipótesis?
       </div>
 
-      <div class="tutoria-redaccion-parciales-examenes-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-redaccion-parciales-examenes-btn btn-tutoria-redaccion-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre Redacción de hipótesis en parciales y exámenes: ¿Cómo redactar nuestras respuestas?\nhttps://youtu.be/vjoDxfiTWUw'
           )">
-          <svg class="tutoria-redaccion-parciales-examenes-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -923,10 +554,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-redaccion-parciales-examenes-btn btn-tutoria-redaccion-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/vjoDxfiTWUw"
           target="_blank">
-          <svg class="tutoria-redaccion-parciales-examenes-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -942,7 +573,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="734590714843303538" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Herramientas de la Psicología Clínica === -->
-<div class="tutoria-herramientas-psicologia-clinica-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-herramientas-psicologia-clinica-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -1071,20 +702,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-herramientas-psicologia-clinica-list">
-    <li class="tutoria-herramientas-psicologia-clinica-item">
-      <div class="tutoria-herramientas-psicologia-clinica-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Conocé como es la preparación particular de <b>Herramientas de la Psicología Clínica</b>
       </div>
 
-      <div class="tutoria-herramientas-psicologia-clinica-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-herramientas-psicologia-clinica-btn btn-tutoria-hpc-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá este video de PsicoResúmenes sobre la preparación particular de Herramientas de la Psicología Clínica\nhttps://youtu.be/D2u8qW_195E'
           )">
-          <svg class="tutoria-herramientas-psicologia-clinica-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -1092,10 +723,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-herramientas-psicologia-clinica-btn btn-tutoria-hpc-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/D2u8qW_195E"
           target="_blank">
-          <svg class="tutoria-herramientas-psicologia-clinica-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -1117,7 +748,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 <div class="paragraph"><font color="#0a3965" size="6"><strong>Test Gest&aacute;ltico Visomotor de Bender-Koppitz</strong></font></div>
 
 <div><div id="177205795711949960" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Test gestáltico visomotor de Bender === -->
-<div class="tutoria-bender-introduccion-teorico-practica-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-bender-introduccion-teorico-practica-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -1242,20 +873,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-bender-introduccion-teorico-practica-list">
-    <li class="tutoria-bender-introduccion-teorico-practica-item">
-      <div class="tutoria-bender-introduccion-teorico-practica-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Introducción teórico-práctica: <b>Test gestáltico visomotor de Bender.</b> ¿Qué tener en cuenta al aplicarlo?
       </div>
 
-      <div class="tutoria-bender-introduccion-teorico-practica-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-bender-introduccion-teorico-practica-btn btn-tutoria-bender-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre el Test gestáltico visomotor de Bender: Introducción teórico-práctica\nhttps://youtu.be/3sY5MdY7NkU'
           )">
-          <svg class="tutoria-bender-introduccion-teorico-practica-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -1263,10 +894,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-bender-introduccion-teorico-practica-btn btn-tutoria-bender-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/3sY5MdY7NkU"
           target="_blank">
-          <svg class="tutoria-bender-introduccion-teorico-practica-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -1296,7 +927,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 <div class="paragraph"><font color="#f2f2f2" size="6"><strong>WISC-V: Escala de Inteligencia Wechsler para ni&ntilde;os, 5&deg; ed.</strong></font></div>
 
 <div><div id="151244411820813758" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría WISC-V – Puntuación directa a puntuación escalar (responsive móvil) === -->
-<div class="tutoria-wiscv-puntuacion-escalar-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-wiscv-puntuacion-escalar-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -1421,20 +1052,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-wiscv-puntuacion-escalar-list">
-    <li class="tutoria-wiscv-puntuacion-escalar-item">
-      <div class="tutoria-wiscv-puntuacion-escalar-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         <b>Ejercicio práctico:</b> ¿Cómo se convierte una puntuación directa a una puntuación escalar en WISC-V?
       </div>
 
-      <div class="tutoria-wiscv-puntuacion-escalar-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-wiscv-puntuacion-escalar-btn btn-tutoria-wiscv-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre WISC-V: ¿Cómo se convierte una puntuación directa a una puntuación escalar en WISC-V?\nhttps://youtu.be/f4f4_GlRxvw'
           )">
-          <svg class="tutoria-wiscv-puntuacion-escalar-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -1442,10 +1073,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-wiscv-puntuacion-escalar-btn btn-tutoria-wiscv-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/f4f4_GlRxvw"
           target="_blank">
-          <svg class="tutoria-wiscv-puntuacion-escalar-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -1645,7 +1276,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="600311528667871804" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Escala de inteligencia Wechsler para niños (WISC-V) === -->
-<div class="tutoria-wiscv-introduccion-escala-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-wiscv-introduccion-escala-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -1774,20 +1405,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-wiscv-introduccion-escala-list">
-    <li class="tutoria-wiscv-introduccion-escala-item">
-      <div class="tutoria-wiscv-introduccion-escala-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Introducción a la <b>Escala de inteligencia Wechsler para niños</b>, quinta edición (WISC-V): Niveles de interpretación, ámbitos y objetivos de aplicación.
       </div>
 
-      <div class="tutoria-wiscv-introduccion-escala-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-wiscv-introduccion-escala-btn btn-tutoria-wiscv-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre la Escala de inteligencia Wechsler para niños, quinta edición (WISC-V): Niveles de interpretación, ámbitos y objetivos de aplicación\nhttps://youtu.be/YCTbCUfIc0s'
           )">
-          <svg class="tutoria-wiscv-introduccion-escala-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -1795,10 +1426,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-wiscv-introduccion-escala-btn btn-tutoria-wiscv-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/YCTbCUfIc0s"
           target="_blank">
-          <svg class="tutoria-wiscv-introduccion-escala-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -1814,7 +1445,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="627337284803045351" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Cálculo del Coeficiente Intelectual Total (CIT) – WISC-V === -->
-<div class="tutoria-wiscv-calculo-cit-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-wiscv-calculo-cit-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -1943,20 +1574,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-wiscv-calculo-cit-list">
-    <li class="tutoria-wiscv-calculo-cit-item">
-      <div class="tutoria-wiscv-calculo-cit-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Aprendé como calcular el <b>Coeficiente Intelectual Total (CIT)</b> de la Escala de inteligencia Wechsler para niños, quinta edición (WISC-V).
       </div>
 
-      <div class="tutoria-wiscv-calculo-cit-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-wiscv-calculo-cit-btn btn-tutoria-wiscv-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre como calcular el Coeficiente Intelectual Total (CIT) de la Escala de inteligencia Wechsler para niños, quinta edición (WISC-V)\nhttps://youtu.be/xbgkV2uYeTQ'
           )">
-          <svg class="tutoria-wiscv-calculo-cit-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -1964,10 +1595,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-wiscv-calculo-cit-btn btn-tutoria-wiscv-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/xbgkV2uYeTQ"
           target="_blank">
-          <svg class="tutoria-wiscv-calculo-cit-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -1983,7 +1614,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="274643946155021467" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Índices primarios del WISC-V === -->
-<div class="tutoria-wiscv-indices-primarios-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-wiscv-indices-primarios-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -2112,20 +1743,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-wiscv-indices-primarios-list">
-    <li class="tutoria-wiscv-indices-primarios-item">
-      <div class="tutoria-wiscv-indices-primarios-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Conocé cuales son los <b>índices primarios del WISC-V</b> y cuales son las subpruebas que los componen. ¿Qué miden estos índices primarios y sus subpruebas?
       </div>
 
-      <div class="tutoria-wiscv-indices-primarios-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-wiscv-indices-primarios-btn btn-tutoria-wiscv-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre los índices primarios del WISC-V y las subpruebas que los componen\nhttps://youtu.be/5K8P57TNQL8'
           )">
-          <svg class="tutoria-wiscv-indices-primarios-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -2133,10 +1764,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-wiscv-indices-primarios-btn btn-tutoria-wiscv-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/5K8P57TNQL8"
           target="_blank">
-          <svg class="tutoria-wiscv-indices-primarios-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -2152,7 +1783,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="878669162281327450" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Cálculos y conversiones de puntajes – WISC-V === -->
-<div class="tutoria-wiscv-calculos-conversiones-puntajes-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-wiscv-calculos-conversiones-puntajes-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -2281,20 +1912,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-wiscv-calculos-conversiones-puntajes-list">
-    <li class="tutoria-wiscv-calculos-conversiones-puntajes-item">
-      <div class="tutoria-wiscv-calculos-conversiones-puntajes-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         <b>Aprendé a calcular y realizar las conversiones de los puntajes</b> de la Escala de inteligencia Wechsler para niños, quinta edición (WISC-V).
       </div>
 
-      <div class="tutoria-wiscv-calculos-conversiones-puntajes-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-wiscv-calculos-conversiones-puntajes-btn btn-tutoria-wiscv-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre cálculos y conversiones de los puntajes de la Escala de inteligencia Wechsler para niños, quinta edición (WISC-V)\nhttps://youtu.be/RsvR-Gr_1jU'
           )">
-          <svg class="tutoria-wiscv-calculos-conversiones-puntajes-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -2302,10 +1933,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-wiscv-calculos-conversiones-puntajes-btn btn-tutoria-wiscv-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/RsvR-Gr_1jU"
           target="_blank">
-          <svg class="tutoria-wiscv-calculos-conversiones-puntajes-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -2335,7 +1966,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 <div class="paragraph"><font color="#0a3965" size="6"><strong>Test del Dibujo de la Persona bajo la Lluvia</strong></font></div>
 
 <div><div id="511844813675528694" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Aplicación del Test de la Persona bajo la Lluvia === -->
-<div class="tutoria-persona-bajo-la-lluvia-aplicacion-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-persona-bajo-la-lluvia-aplicacion-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -2464,20 +2095,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-persona-bajo-la-lluvia-aplicacion-list">
-    <li class="tutoria-persona-bajo-la-lluvia-aplicacion-item">
-      <div class="tutoria-persona-bajo-la-lluvia-aplicacion-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Aplicación del <b>Test de la Persona bajo la Lluvia</b>: ¿Cuál es la consigna y cómo se aplica?
       </div>
 
-      <div class="tutoria-persona-bajo-la-lluvia-aplicacion-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-persona-bajo-la-lluvia-aplicacion-btn btn-tutoria-lluvia-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre la aplicación del Test de la Persona bajo la Lluvia: ¿Cuál es la consigna y cómo se aplica?\nhttps://youtu.be/NsBEb2s8TfI'
           )">
-          <svg class="tutoria-persona-bajo-la-lluvia-aplicacion-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -2485,10 +2116,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-persona-bajo-la-lluvia-aplicacion-btn btn-tutoria-lluvia-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/NsBEb2s8TfI"
           target="_blank">
-          <svg class="tutoria-persona-bajo-la-lluvia-aplicacion-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -2504,7 +2135,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="945231231429283587" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Interpretación del Test de la Persona bajo la Lluvia === -->
-<div class="tutoria-persona-bajo-la-lluvia-interpretacion-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-persona-bajo-la-lluvia-interpretacion-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -2633,20 +2264,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-persona-bajo-la-lluvia-interpretacion-list">
-    <li class="tutoria-persona-bajo-la-lluvia-interpretacion-item">
-      <div class="tutoria-persona-bajo-la-lluvia-interpretacion-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         <b>Interpretación del Test de la Persona bajo la Lluvia</b>: Ambiente perturbador y tamaño del dibujo
       </div>
 
-      <div class="tutoria-persona-bajo-la-lluvia-interpretacion-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-persona-bajo-la-lluvia-interpretacion-btn btn-tutoria-lluvia-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre Interpretación del Test de la Persona bajo la Lluvia: Ambiente perturbador y tamaño del dibujo\nhttps://youtu.be/owLo3mlU88Q'
           )">
-          <svg class="tutoria-persona-bajo-la-lluvia-interpretacion-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -2654,10 +2285,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-persona-bajo-la-lluvia-interpretacion-btn btn-tutoria-lluvia-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/owLo3mlU88Q"
           target="_blank">
-          <svg class="tutoria-persona-bajo-la-lluvia-interpretacion-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -2673,7 +2304,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="365010354473358447" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Emplazamiento en el Test de la Persona bajo la Lluvia === -->
-<div class="tutoria-persona-bajo-la-lluvia-emplazamiento-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-persona-bajo-la-lluvia-emplazamiento-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -2802,20 +2433,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-persona-bajo-la-lluvia-emplazamiento-list">
-    <li class="tutoria-persona-bajo-la-lluvia-emplazamiento-item">
-      <div class="tutoria-persona-bajo-la-lluvia-emplazamiento-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         <b>Análisis e interpretación del emplazamiento en el Test de la Persona bajo la Lluvia.</b> ¿Si dibujas la persona bajo la lluvia en la parte de arriba de la hoja, qué significa?
       </div>
 
-      <div class="tutoria-persona-bajo-la-lluvia-emplazamiento-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-persona-bajo-la-lluvia-emplazamiento-btn btn-tutoria-lluvia-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre Análisis e interpretación del emplazamiento en el Test de la Persona bajo la Lluvia\nhttps://youtu.be/lesUXwFonlI'
           )">
-          <svg class="tutoria-persona-bajo-la-lluvia-emplazamiento-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -2823,10 +2454,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-persona-bajo-la-lluvia-emplazamiento-btn btn-tutoria-lluvia-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/lesUXwFonlI"
           target="_blank">
-          <svg class="tutoria-persona-bajo-la-lluvia-emplazamiento-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -3026,7 +2657,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="370572864755312495" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Trazo y líneas en el Test de la Persona bajo la Lluvia === -->
-<div class="tutoria-persona-bajo-la-lluvia-trazo-lineas-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-persona-bajo-la-lluvia-trazo-lineas-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -3155,21 +2786,21 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-persona-bajo-la-lluvia-trazo-lineas-list">
-    <li class="tutoria-persona-bajo-la-lluvia-trazo-lineas-item">
-      <div class="tutoria-persona-bajo-la-lluvia-trazo-lineas-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         <b>¿Cómo se interpreta el trazo y las líneas en el Test de la Persona bajo la Lluvia?</b>
         Análisis del test. Existen diferentes líneas y ellas permiten realizar distintas hipótesis e interpretaciones.
       </div>
 
-      <div class="tutoria-persona-bajo-la-lluvia-trazo-lineas-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-persona-bajo-la-lluvia-trazo-lineas-btn btn-tutoria-lluvia-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre cómo se interpreta el trazo y las líneas en el Test de la Persona bajo la Lluvia\nhttps://youtu.be/SqbIw8xA1jk'
           )">
-          <svg class="tutoria-persona-bajo-la-lluvia-trazo-lineas-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -3177,10 +2808,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-persona-bajo-la-lluvia-trazo-lineas-btn btn-tutoria-lluvia-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/SqbIw8xA1jk"
           target="_blank">
-          <svg class="tutoria-persona-bajo-la-lluvia-trazo-lineas-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -3196,140 +2827,23 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="802003405921176010" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Interpretación de borrar y tachar líneas y posturas === -->
-<div class="interpretacion-borrar-wrap">
-  <style>
-    .interpretacion-borrar-wrap { display: block; padding: 8px 0; overflow: visible !important; }
+<div class="psr-tut-wrap">
+  
 
-    .interpretacion-borrar-list {
-      --tutoria-hmc-bg: #f7f7f5;
-      --tutoria-hmc-border: #deded9;
-      --tutoria-hmc-text: #0a0a0a;
-
-      --tutoria-hmc-copy: #3a96b8;
-      --tutoria-hmc-copy-dk: #2c6e85;
-
-      --tutoria-hmc-youtube: #FF0000;
-      --tutoria-hmc-youtube-dk: #CC0000;
-
-      --tutoria-hmc-btn-text: #F2F2F2;
-      --tutoria-hmc-radius: 16px;
-      --tutoria-hmc-padY: 16px;
-      --tutoria-hmc-padX: 18px;
-
-      font-family: 'League Spartan', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      display: grid;
-      gap: 14px;
-      padding: 0;
-      list-style: none;
-    }
-
-    .interpretacion-borrar-item {
-      background: var(--tutoria-hmc-bg);
-      border: 1.5px solid var(--tutoria-hmc-border);
-      border-radius: var(--tutoria-hmc-radius);
-      padding: var(--tutoria-hmc-padY) var(--tutoria-hmc-padX);
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      align-items: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,.08);
-    }
-
-    .interpretacion-borrar-ref {
-      color: var(--tutoria-hmc-text);
-      font-size: 16px;
-      line-height: 1.45;
-      margin-right: 14px;
-      word-break: break-word;
-      text-align: left;
-      padding-left: 8px;
-      max-width: 100%;
-      min-width: 0;
-      overflow-wrap: anywhere;
-    }
-
-    .interpretacion-borrar-btn-group {
-      display: inline-flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .interpretacion-borrar-btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      min-height: 36px;
-      padding: 8px 14px;
-      border-radius: 10px;
-      color: var(--tutoria-hmc-btn-text);
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 14px;
-      transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
-      white-space: nowrap;
-      box-shadow: 0 4px 8px rgba(0,0,0,.18), 0 2px 4px rgba(0,0,0,.12);
-      cursor: pointer;
-      border: none;
-      outline: none;
-    }
-
-    .interpretacion-borrar-btn:hover {
-      transform: translateY(-2px);
-      background: linear-gradient(0deg, rgba(255,255,255,.06), rgba(255,255,255,.06));
-      box-shadow: 0 6px 12px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.14);
-    }
-
-    .btn-interpretacion-borrar-copy { background: var(--tutoria-hmc-copy); }
-    .btn-interpretacion-borrar-copy:hover { background: var(--tutoria-hmc-copy-dk); }
-
-    .btn-interpretacion-borrar-youtube { background: var(--tutoria-hmc-youtube); }
-    .btn-interpretacion-borrar-youtube:hover { background: var(--tutoria-hmc-youtube-dk); }
-
-    .interpretacion-borrar-ico {
-      width: 18px;
-      height: 18px;
-      flex: 0 0 18px;
-    }
-
-    @media (max-width: 700px) {
-      .interpretacion-borrar-item {
-        grid-template-columns: 1fr;
-        align-items: start;
-        gap: 10px;
-      }
-
-      .interpretacion-borrar-ref {
-        margin-right: 0;
-        font-size: 15px;
-        padding-left: 6px;
-      }
-
-      .interpretacion-borrar-btn-group {
-        grid-column: 1 / -1;
-        width: 100%;
-      }
-
-      .interpretacion-borrar-btn {
-        width: 100%;
-        justify-content: center;
-      }
-    }
-  </style>
-
-  <ul class="interpretacion-borrar-list">
-    <li class="interpretacion-borrar-item">
-      <div class="interpretacion-borrar-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         <b>Interpretación de borrar y tachar líneas y las posturas</b> de la persona bajo la lluvia
       </div>
 
-      <div class="interpretacion-borrar-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="interpretacion-borrar-btn btn-interpretacion-borrar-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             `Mirá esta tutoría de PsicoResúmenes sobre las interpretaciones de borrar y tachar líneas, y las posturas de la persona bajo la lluvia\nhttps://youtu.be/SwAxzqmY6pI`
           )">
-          <svg class="interpretacion-borrar-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -3337,10 +2851,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="interpretacion-borrar-btn btn-interpretacion-borrar-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/SwAxzqmY6pI"
           target="_blank">
-          <svg class="interpretacion-borrar-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -3356,7 +2870,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="104661498296763306" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Secuencia, movimiento y sombreado en el Test de la Persona bajo la Lluvia === -->
-<div class="tutoria-persona-bajo-la-lluvia-secuencia-movimiento-sombreado-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-persona-bajo-la-lluvia-secuencia-movimiento-sombreado-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -3485,20 +2999,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-persona-bajo-la-lluvia-secuencia-movimiento-sombreado-list">
-    <li class="tutoria-persona-bajo-la-lluvia-secuencia-movimiento-sombreado-item">
-      <div class="tutoria-persona-bajo-la-lluvia-secuencia-movimiento-sombreado-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Análisis de la secuencia, el movimiento y el <b>sombreado en el Test de la Persona bajo la Lluvia</b>. Esta es una parte fundamental que debe ser registrada para obtener datos del paciente.
       </div>
 
-      <div class="tutoria-persona-bajo-la-lluvia-secuencia-movimiento-sombreado-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-persona-bajo-la-lluvia-secuencia-movimiento-sombreado-btn btn-tutoria-lluvia-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre Análisis de la secuencia, el movimiento y el sombreado en el Test de la Persona bajo la Lluvia\nhttps://youtu.be/grRt1thGVeA'
           )">
-          <svg class="tutoria-persona-bajo-la-lluvia-secuencia-movimiento-sombreado-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -3506,10 +3020,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-persona-bajo-la-lluvia-secuencia-movimiento-sombreado-btn btn-tutoria-lluvia-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/grRt1thGVeA"
           target="_blank">
-          <svg class="tutoria-persona-bajo-la-lluvia-secuencia-movimiento-sombreado-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -3525,7 +3039,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="578523160269481980" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Interpretación de las características de la persona – Test de la Persona bajo la Lluvia === -->
-<div class="tutoria-persona-bajo-la-lluvia-caracteristicas-persona-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-persona-bajo-la-lluvia-caracteristicas-persona-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -3654,20 +3168,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-persona-bajo-la-lluvia-caracteristicas-persona-list">
-    <li class="tutoria-persona-bajo-la-lluvia-caracteristicas-persona-item">
-      <div class="tutoria-persona-bajo-la-lluvia-caracteristicas-persona-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         <b>Interpretación de las características de la persona</b> del Test del Dibujo de la Persona bajo la Lluvia. ¿Qué significa que la persona esté inclinada o incompleta?
       </div>
 
-      <div class="tutoria-persona-bajo-la-lluvia-caracteristicas-persona-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-persona-bajo-la-lluvia-caracteristicas-persona-btn btn-tutoria-lluvia-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre la Interpretación de las características de la persona del Test del Dibujo de la Persona bajo la Lluvia.\nhttps://youtu.be/eUzgBagXw24'
           )">
-          <svg class="tutoria-persona-bajo-la-lluvia-caracteristicas-persona-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -3675,10 +3189,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-persona-bajo-la-lluvia-caracteristicas-persona-btn btn-tutoria-lluvia-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/eUzgBagXw24"
           target="_blank">
-          <svg class="tutoria-persona-bajo-la-lluvia-caracteristicas-persona-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -3694,7 +3208,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="726439593412246547" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Orientación de la persona – Test de la Persona bajo la Lluvia === -->
-<div class="tutoria-persona-bajo-la-lluvia-orientacion-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-persona-bajo-la-lluvia-orientacion-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -3823,21 +3337,21 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-persona-bajo-la-lluvia-orientacion-list">
-    <li class="tutoria-persona-bajo-la-lluvia-orientacion-item">
-      <div class="tutoria-persona-bajo-la-lluvia-orientacion-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         La orientación de la persona en el Test de la Persona bajo la Lluvia: Análisis de contenido.
         <b>¿Qué podemos interpretar de las diferentes orientaciones de la persona en el Test de la Persona bajo la Lluvia?</b>
       </div>
 
-      <div class="tutoria-persona-bajo-la-lluvia-orientacion-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-persona-bajo-la-lluvia-orientacion-btn btn-tutoria-lluvia-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre el análisis de la orientación de la persona en el Test de la Persona bajo la Lluvia\nhttps://youtu.be/ekrqydT0yOU'
           )">
-          <svg class="tutoria-persona-bajo-la-lluvia-orientacion-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -3845,10 +3359,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-persona-bajo-la-lluvia-orientacion-btn btn-tutoria-lluvia-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtu.be/ekrqydT0yOU"
           target="_blank">
-          <svg class="tutoria-persona-bajo-la-lluvia-orientacion-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -3878,7 +3392,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 <div class="paragraph"><font size="6" color="#f2f2f2"><strong style="">Test de Rorschach</strong></font></div>
 
 <div><div id="577270269237862047" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Test de Rorschach – Lámina 1 === -->
-<div class="tutoria-rorschach-lamina-1-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-rorschach-lamina-1-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -4007,20 +3521,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-rorschach-lamina-1-list">
-    <li class="tutoria-rorschach-lamina-1-item">
-      <div class="tutoria-rorschach-lamina-1-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Test de Rorschach: <b>¿Qué evalúa la lámina 1?</b> De la fantasía de enfermedad: ¿Quién soy?
       </div>
 
-      <div class="tutoria-rorschach-lamina-1-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-rorschach-lamina-1-btn btn-tutoria-rorschach-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre el Test de Rorschach: ¿Qué evalúa la lámina 1? De la fantasía de enfermedad: ¿Quién soy?\nhttps://youtube.com/shorts/-dd1i6O_EkQ'
           )">
-          <svg class="tutoria-rorschach-lamina-1-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -4028,10 +3542,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-rorschach-lamina-1-btn btn-tutoria-rorschach-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtube.com/shorts/-dd1i6O_EkQ"
           target="_blank">
-          <svg class="tutoria-rorschach-lamina-1-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -4047,7 +3561,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="536338081207938360" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Test de Rorschach – Lámina 2 === -->
-<div class="tutoria-rorschach-lamina-2-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-rorschach-lamina-2-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -4176,20 +3690,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-rorschach-lamina-2-list">
-    <li class="tutoria-rorschach-lamina-2-item">
-      <div class="tutoria-rorschach-lamina-2-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Test de Rorschach: <b>¿Qué evalúa la lámina 2?</b> De la culpabilidad sexual
       </div>
 
-      <div class="tutoria-rorschach-lamina-2-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-rorschach-lamina-2-btn btn-tutoria-rorschach-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre el Test de Rorschach: ¿Qué evalúa la lámina 2? De la culpabilidad sexual\nhttps://youtube.com/shorts/SjaK0kSb070'
           )">
-          <svg class="tutoria-rorschach-lamina-2-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -4197,10 +3711,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-rorschach-lamina-2-btn btn-tutoria-rorschach-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtube.com/shorts/SjaK0kSb070"
           target="_blank">
-          <svg class="tutoria-rorschach-lamina-2-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -4400,7 +3914,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="845429137398163310" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Test de Rorschach – Lámina 3 === -->
-<div class="tutoria-rorschach-lamina-3-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-rorschach-lamina-3-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -4529,20 +4043,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-rorschach-lamina-3-list">
-    <li class="tutoria-rorschach-lamina-3-item">
-      <div class="tutoria-rorschach-lamina-3-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Test de Rorschach: <b>¿Qué evalúa la lámina 3?</b> De la normalidad en la relación social
       </div>
 
-      <div class="tutoria-rorschach-lamina-3-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-rorschach-lamina-3-btn btn-tutoria-rorschach-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre el Test de Rorschach: ¿Qué evalúa la lámina 3? De la normalidad en la relación social\nhttps://youtube.com/shorts/iCAagvrfwWo'
           )">
-          <svg class="tutoria-rorschach-lamina-3-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -4550,10 +4064,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-rorschach-lamina-3-btn btn-tutoria-rorschach-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtube.com/shorts/iCAagvrfwWo"
           target="_blank">
-          <svg class="tutoria-rorschach-lamina-3-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -4569,7 +4083,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="340896685442201696" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Test de Rorschach – Lámina 4 === -->
-<div class="tutoria-rorschach-lamina-4-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-rorschach-lamina-4-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -4698,20 +4212,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-rorschach-lamina-4-list">
-    <li class="tutoria-rorschach-lamina-4-item">
-      <div class="tutoria-rorschach-lamina-4-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Test de Rorschach: <b>¿Qué evalúa la lámina 4?</b> Del padre edípico y la autoridad
       </div>
 
-      <div class="tutoria-rorschach-lamina-4-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-rorschach-lamina-4-btn btn-tutoria-rorschach-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre el Test de Rorschach: ¿Qué evalúa la lámina 4? Del padre edípico y la autoridad\nhttps://youtube.com/shorts/3qodlARPp8A'
           )">
-          <svg class="tutoria-rorschach-lamina-4-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -4719,10 +4233,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-rorschach-lamina-4-btn btn-tutoria-rorschach-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtube.com/shorts/3qodlARPp8A"
           target="_blank">
-          <svg class="tutoria-rorschach-lamina-4-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -4738,7 +4252,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="865759915341809107" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Test de Rorschach – Lámina 5 === -->
-<div class="tutoria-rorschach-lamina-5-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-rorschach-lamina-5-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -4867,20 +4381,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-rorschach-lamina-5-list">
-    <li class="tutoria-rorschach-lamina-5-item">
-      <div class="tutoria-rorschach-lamina-5-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Test de Rorschach: <b>¿Qué evalúa la lámina 5?</b> De la realidad
       </div>
 
-      <div class="tutoria-rorschach-lamina-5-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-rorschach-lamina-5-btn btn-tutoria-rorschach-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre el Test de Rorschach: ¿Qué evalúa la lámina 5? De la realidad\nhttps://youtube.com/shorts/pmYb_l1nSsc'
           )">
-          <svg class="tutoria-rorschach-lamina-5-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -4888,10 +4402,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-rorschach-lamina-5-btn btn-tutoria-rorschach-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtube.com/shorts/pmYb_l1nSsc"
           target="_blank">
-          <svg class="tutoria-rorschach-lamina-5-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -4907,7 +4421,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="903988351671402940" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Test de Rorschach – Lámina 6 === -->
-<div class="tutoria-rorschach-lamina-6-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-rorschach-lamina-6-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -5036,20 +4550,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-rorschach-lamina-6-list">
-    <li class="tutoria-rorschach-lamina-6-item">
-      <div class="tutoria-rorschach-lamina-6-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Test de Rorschach: <b>¿Qué evalúa la lámina 6?</b> De la sexualidad masculina y de la heterosexualidad
       </div>
 
-      <div class="tutoria-rorschach-lamina-6-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-rorschach-lamina-6-btn btn-tutoria-rorschach-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre el Test de Rorschach: ¿Qué evalúa la lámina 6? De la sexualidad masculina y de la heterosexualidad\nhttps://youtube.com/shorts/vti3sWrWaco'
           )">
-          <svg class="tutoria-rorschach-lamina-6-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -5057,10 +4571,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-rorschach-lamina-6-btn btn-tutoria-rorschach-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtube.com/shorts/vti3sWrWaco"
           target="_blank">
-          <svg class="tutoria-rorschach-lamina-6-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -5076,7 +4590,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="247960347598794153" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Test de Rorschach – Lámina 7 === -->
-<div class="tutoria-rorschach-lamina-7-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-rorschach-lamina-7-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -5205,20 +4719,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-rorschach-lamina-7-list">
-    <li class="tutoria-rorschach-lamina-7-item">
-      <div class="tutoria-rorschach-lamina-7-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Test de Rorschach: <b>¿Qué evalúa la lámina 7?</b> De la madre internalizada y la sexualidad femenina
       </div>
 
-      <div class="tutoria-rorschach-lamina-7-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-rorschach-lamina-7-btn btn-tutoria-rorschach-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre el Test de Rorschach: ¿Qué evalúa la lámina 7? De la madre internalizada y la sexualidad femenina\nhttps://youtube.com/shorts/JT9T3bt62sY'
           )">
-          <svg class="tutoria-rorschach-lamina-7-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -5226,10 +4740,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-rorschach-lamina-7-btn btn-tutoria-rorschach-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtube.com/shorts/JT9T3bt62sY"
           target="_blank">
-          <svg class="tutoria-rorschach-lamina-7-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -5245,7 +4759,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="323976371639953213" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Test de Rorschach – Lámina 8 === -->
-<div class="tutoria-rorschach-lamina-8-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-rorschach-lamina-8-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -5374,20 +4888,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-rorschach-lamina-8-list">
-    <li class="tutoria-rorschach-lamina-8-item">
-      <div class="tutoria-rorschach-lamina-8-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Test de Rorschach: <b>¿Qué evalúa la lámina 8?</b> De la adaptación afectiva y la fantasía de curación
       </div>
 
-      <div class="tutoria-rorschach-lamina-8-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-rorschach-lamina-8-btn btn-tutoria-rorschach-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre el Test de Rorschach: ¿Qué evalúa la lámina 8? De la adaptación afectiva y la fantasía de curación\nhttps://youtube.com/shorts/1-2Ix0V_nB4'
           )">
-          <svg class="tutoria-rorschach-lamina-8-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -5395,10 +4909,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-rorschach-lamina-8-btn btn-tutoria-rorschach-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtube.com/shorts/1-2Ix0V_nB4"
           target="_blank">
-          <svg class="tutoria-rorschach-lamina-8-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -5414,7 +4928,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="674903156322792166" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Test de Rorschach – Lámina 9 === -->
-<div class="tutoria-rorschach-lamina-9-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-rorschach-lamina-9-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -5543,20 +5057,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-rorschach-lamina-9-list">
-    <li class="tutoria-rorschach-lamina-9-item">
-      <div class="tutoria-rorschach-lamina-9-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Test de Rorschach: <b>¿Qué evalúa la lámina 9?</b> De la sublimación y la relación objetal parcial
       </div>
 
-      <div class="tutoria-rorschach-lamina-9-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-rorschach-lamina-9-btn btn-tutoria-rorschach-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre el Test de Rorschach: ¿Qué evalúa la lámina 9? De la sublimación y la relación objetal parcial\nhttps://youtube.com/shorts/q5Q6R6WOywk'
           )">
-          <svg class="tutoria-rorschach-lamina-9-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -5564,10 +5078,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-rorschach-lamina-9-btn btn-tutoria-rorschach-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtube.com/shorts/q5Q6R6WOywk"
           target="_blank">
-          <svg class="tutoria-rorschach-lamina-9-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
@@ -5583,7 +5097,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 </div>
 
 <div><div id="182869469164545950" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- === Widget Video: Tutoría Test de Rorschach – Lámina 10 === -->
-<div class="tutoria-rorschach-lamina-10-wrap">
+<div class="psr-tut-wrap">
   <style>
     /* ======= Scope exclusivo ======= */
     .tutoria-rorschach-lamina-10-wrap{display:block; padding:8px 0; overflow:visible!important;}
@@ -5712,20 +5226,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
     }
   </style>
 
-  <ul class="tutoria-rorschach-lamina-10-list">
-    <li class="tutoria-rorschach-lamina-10-item">
-      <div class="tutoria-rorschach-lamina-10-ref">
+  <ul class="psr-tut-list">
+    <li class="psr-tut-item">
+      <div class="psr-tut-ref">
         Test de Rorschach: <b>¿Qué evalúa la lámina 10?</b> Del espacio vital y el medio ambiente
       </div>
 
-      <div class="tutoria-rorschach-lamina-10-btn-group">
+      <div class="psr-tut-btn-group">
         <!-- Copiar link -->
         <button
-          class="tutoria-rorschach-lamina-10-btn btn-tutoria-rorschach-copy"
+          class="psr-tut-btn psr-btn-copy"
           onclick="navigator.clipboard.writeText(
             'Mirá esta tutoría de PsicoResúmenes sobre el Test de Rorschach: ¿Qué evalúa la lámina 10? Del espacio vital y el medio ambiente\nhttps://youtube.com/shorts/baJiofWT-s8'
           )">
-          <svg class="tutoria-rorschach-lamina-10-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/>
           </svg>
           Copiar link
@@ -5733,10 +5247,10 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Membership.RPC","model_namespace":"_W.Me
 
         <!-- Ver en YouTube -->
         <a
-          class="tutoria-rorschach-lamina-10-btn btn-tutoria-rorschach-youtube"
+          class="psr-tut-btn psr-btn-youtube"
           href="https://youtube.com/shorts/baJiofWT-s8"
           target="_blank">
-          <svg class="tutoria-rorschach-lamina-10-ico" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="psr-tut-ico" viewBox="0 0 24 24" aria-hidden="true">
             <path fill="currentColor" d="M23.498 6.186a2.958 2.958 0 0 0-2.082-2.094C19.64 3.5 12 3.5 12 3.5s-7.64 0-9.416.592A2.958 2.958 0 0 0 .502 6.186C0 7.97 0 12 0 12s0 4.03.502 5.814a2.958 2.958 0 0 0 2.082 2.094C4.36 20.5 12 20.5 12 20.5s7.64 0 9.416-.592a2.958 2.958 0 0 0 2.082-2.094C24 16.03 24 12 24 12s0-4.03-.502-5.814ZM9.75 15.568V8.432L15.818 12 9.75 15.568Z"/>
           </svg>
           Ver en YouTube
