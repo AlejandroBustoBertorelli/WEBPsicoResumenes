@@ -18,7 +18,7 @@
   var BASE = getBase();
 
   var CSS = "\
-.buscador-psico{max-width:680px;margin:0 auto;font-family:'Varela',Arial,sans-serif;text-align:left;position:relative;z-index:50;}\
+.buscador-psico{max-width:680px;margin:0 auto;font-family:'Varela',Arial,sans-serif;text-align:left;position:relative;z-index:5;}\
 .bsc-box{display:flex;border:2px solid #0a3965;border-radius:8px;overflow:hidden;background:#fff;}\
 .bsc-input{flex:1;border:0;outline:0;padding:13px 16px;font-size:16px;color:#0a3965;font-family:inherit;background:#fff;min-width:0;}\
 .bsc-input::placeholder{color:#7b8ca0;}\
